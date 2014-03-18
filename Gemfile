@@ -17,6 +17,7 @@ end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
+gem "bootstrap-sass", "~> 3.1.1.0"
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -45,7 +46,6 @@ group :production do
 	gem 'pg', '0.17.1'
 	gem 'rails_12factor', '0.0.2'
 end
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
